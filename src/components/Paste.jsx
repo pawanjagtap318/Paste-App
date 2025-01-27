@@ -18,8 +18,6 @@ function Paste() {
     dispatch(removeFromPastes(pasteId));
   }
 
-  console.log(pastes[0]['createdAt'].substring(0,10))
-
   return (
     <div className='m-10'>
       <input

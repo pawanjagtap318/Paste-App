@@ -8,7 +8,6 @@ function ViewPaste() {
   const allPastes = useSelector((state) => state.paste.pastes);
   const {id} = useParams();
   const paste = allPastes.filter((p) => p._id === id)[0];
-  console.log(id);
 
   return (
     <div className='m-8 w-full h-screen'>
